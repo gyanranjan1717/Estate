@@ -1,8 +1,33 @@
-# React + Vite
+# 🏠 Real Estate Developer Website
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This is a **responsive Real Estate Developer website** built using **React JS**, **Tailwind CSS**, and **Vite**. The project includes smooth animations, modern design, and a **fully functional contact form** that allows visitors to send enquiries directly to the admin's email.
 
-Currently, two official plugins are available:
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+
+## 🛠️ Technologies Used
+
+- ⚛️ React JS
+- ⚡ Vite
+- 🎨 Tailwind CSS
+- 📨 EmailJS (for sending form data via email)
+- 🖼️ React Icons & Animations
+
+---
+
+## ✨ Features
+
+- 🔹 Modern landing page for a real estate developer
+- 🔹 Smooth scroll and entrance animations
+- 🔹 About, Services, and Projects sections
+- 🔹 Fully responsive on mobile, tablet, and desktop
+- 🔹 Working contact form (using EmailJS or similar)
+- 🔹 Clean, minimal, and engaging UI
+
+---
+
+## 🚀 Getting Started
+
+### 1. Clone the Repository
+```bash
+git clone https://github.com/gyanranjan1717/Estate.git
+cd Estate
