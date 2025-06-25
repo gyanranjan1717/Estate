@@ -6,11 +6,13 @@ import Testimonials from './components/Testimonials'
 import Contact from './components/Contact'
 import { ToastContainer, toast } from 'react-toastify';
 import Footer from './components/Footer'
+import Navbar from './components/navbar'
 
 const App = () => {
   return (
     <div className='w-full overflow-hidden'>
       <ToastContainer></ToastContainer>
+      <Navbar></Navbar>
    <Header></Header>
    <About></About>
     <Project></Project>

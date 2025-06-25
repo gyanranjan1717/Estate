@@ -19,15 +19,19 @@ const Navbar = () => {
     [showMobileMenu] //this is dependency array 
     ) 
   return (
-    <div className="absolute top-0 left-0 w-full z-10 bg-transparent">
-  <div className="container mx-auto flex justify-between items-center py-4 px-6 md:px-10 lg:px-20">
+    <div className=" absolute top-0 left-0 w-full z-10 bg-transparent">
+  <div className="container relative  mx-auto flex justify-between items-center py-4 px-6 md:px-10 lg:px-20 ">
     
 
     {/* Logo */}
+    
+    <a href="#Header" className='bg-gray-900 rounded-3xl fixed top-4 left-10 z-50 p-2 shadow-md  '>
     <img src={assets.logo} alt="Logo" className="w-24" />
+    </a>
+    
 
     {/* Nav Links */}
-    <ul className="hidden md:flex gap-7 text-white font-medium">
+    <ul className="hidden  justify-center md:flex gap-7 text-red-950 font-medium self-center ">
       <a 
       href="#Header" 
       className="cursor-pointer hover:text-gray-300 px-4"
@@ -48,9 +52,9 @@ const Navbar = () => {
 
     {/* Button */}
     <button 
-    className="hidden md:block bg-white text-black font-semibold
-     px-6 py-2 rounded-full hover:bg-gray-200 transition
-     cursor-pointer ">
+    className="hidden md:block  text-white font-semibold
+     px-6 py-2 rounded-full hover:bg-gray-800 transition
+     cursor-pointer bg-gray-500 fixed top-4 right-10 z-50 p2 shadow-md ">
       Sign up
     </button>
 

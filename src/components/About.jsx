@@ -1,8 +1,10 @@
 import React from 'react'
 import { assets } from '../assets/assets'
 import {motion} from 'framer-motion'
+import Navbar from './navbar'
 const About = () => {
   return (
+    <>
     <motion.div 
     initial = {{opacity:0,x:100}} 
     transition={{duration:2}}
@@ -61,6 +63,7 @@ const About = () => {
                 </div>
               </div>
             </motion.div>
+            </>
   )
 }
 
